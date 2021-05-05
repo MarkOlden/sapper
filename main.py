@@ -9,11 +9,12 @@ import check
 winstreak = 0
 win = 0
 lose = 0
-colors = {1: 'red',
-        2: 'blue',
-        3: 'white',
-        4: 'yellow',
-        5: 'black'}
+colors = {  1: 'red',
+            2: 'blue',
+            3: 'white',
+            4: 'yellow',
+            5: 'black'  }
+
 
 
 while True:
