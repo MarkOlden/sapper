@@ -39,6 +39,8 @@ def wires5(wires, serial_number):
     else:
         right_wire = 0
     return right_wire
+
+
 def wires6(wires, serial_number):
     right_wire = 0
     if not ('yellow' in wires) and (int(serial_number[5]) % 2 == 1):
