@@ -1,6 +1,5 @@
 
 def wires3(wires, serial_number):
-    right_wire = 0
     if 'black' in wires:
         if wires.count('yellow') >= 2:
             right_wire = len(wires) - 1 - wires[::-1].index('yellow')
@@ -14,7 +13,6 @@ def wires3(wires, serial_number):
 
 
 def wires4(wires, serial_number):
-    right_wire = 0
     if wires.count('red') > 1 and (int(serial_number[5]) % 2 == 1):
         right_wire = len(wires) - 1 - wires[::-1].index('red')
     elif wires[3] == 'yellow' and not ('red' in wires):
@@ -29,7 +27,6 @@ def wires4(wires, serial_number):
 
 
 def wires5(wires, serial_number):
-    right_wire = 0
     if wires[4] == 'black' and (int(serial_number[5]) % 2 == 1):
         right_wire = 3
     elif wires.count('red') == 1 and wires.count('yellow') > 1:
@@ -42,7 +39,6 @@ def wires5(wires, serial_number):
 
 
 def wires6(wires, serial_number):
-    right_wire = 0
     if not ('yellow' in wires) and (int(serial_number[5]) % 2 == 1):
         right_wire = 2
     elif wires.count('yellow') == 1 and wires.count('white') > 1:
