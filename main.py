@@ -22,7 +22,7 @@ while True:
     print("| To see correct answer type '?'                   |")
     print("| To show stats type 'stats'                       |")
     print("| To save stats type 'save' and filename           |")
-    print("| To load stats type 'laod' and filename           |")
+    print("| To load stats type 'load' and filename           |")
     print("| To show stats from file type 'show' and filename |")
     print("----------------------------------------------------")
     
